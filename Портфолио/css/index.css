@@ -97,6 +97,10 @@ h3 {
   margin: 0;
 }
 
+video {
+  margin-bottom: 40px;
+}
+
 @media (width <= 576px) {
   .section {
     padding: 0;
