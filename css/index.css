@@ -9,9 +9,24 @@ html {
   );
 }
 
-h1 {
+h1,
+h2 {
   font-family: Oswald, sans-serif;
   font-weight: 400;
+}
+
+.l {
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 30px auto;
 }
 
 .container .a {
@@ -42,12 +57,6 @@ ul {
   list-style-type: none;
 }
 
-.container {
-  display: flex;
-  margin: 0 500px;
-  max-width: 2000px;
-}
-
 #header {
   display: flex;
   align-items: center;
@@ -58,3 +67,4 @@ ul {
   padding-bottom: 20px;
   border-bottom: 1px solid #000000;
 }
+
